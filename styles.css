@@ -284,7 +284,8 @@
   }
   
   footer > p {
-    margin: 2rem;
+    margin: 1rem;
+    margin-left: 70%;
   }
   
   footer i {
