@@ -149,6 +149,34 @@
     border-bottom: 0.2rem solid var(--main-white);
   }
   
+  .about{
+    background: var(--main-blue);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .about-us{
+    width: 50%;
+    margin-top: 80px;
+  }
+
+  .our-skills{
+    width: 50%;
+    margin-top: 80px;
+  }
+
+  .services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+  }
+
   @media (max-width: 28.75em) {
     .projects-section-header {
       font-size: 4rem;
